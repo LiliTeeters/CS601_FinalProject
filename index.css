@@ -6,6 +6,13 @@ body {
   background: linear-gradient( #fc766aff, #783937ff, #f1ac88ff);
   opacity: 0;
   transition: opacity 4s;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+
+  
 }
 
 h1 {
@@ -114,3 +121,4 @@ input{
   
 
 }
+

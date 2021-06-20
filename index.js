@@ -16,17 +16,7 @@ function validateForm() {
         return false
 
     }
-     else if (facilitatorName.length <=2 || facilitatorName == null) {
-        alert("Facilitator name must be filled out and have two or more characters");
-        facilitatorName.focus()
-        return false
-     }
-     else if (facilitatorName.value != "Fazil" || facilitatorName.value != "Laura" || facilitatorName.value != "Harsh"){
-         alert("Please enter a valid facilitator name")
-         facilitatorName.focus()
-         return false    
-         
-     } else {
+     else {
      
      return true
      }

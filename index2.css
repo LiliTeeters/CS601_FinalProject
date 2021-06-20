@@ -2,6 +2,11 @@
 
 body {
   background: linear-gradient( #fc766aff, #783937ff, #f1ac88ff);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .nav {
