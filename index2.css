@@ -1,7 +1,7 @@
 
 
 body {
-  background: linear-gradient( #fc766aff, #783937ff, #f1ac88ff);
+  background: linear-gradient( #fffbf0, #f1ac88ff);
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: cover;
@@ -30,6 +30,7 @@ a:hover {
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
     transform: scale(1.5); 
+    text-decoration: underline;
   }
 
 .name {

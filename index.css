@@ -11,7 +11,7 @@
 }
 
 body {
-  background: linear-gradient( #fc766aff, #783937ff, #f1ac88ff);
+  background: linear-gradient(#fffbf0 , #f1ac88ff);
   opacity: 0;
   transition: opacity 3s;
   background-size: cover;
@@ -26,14 +26,15 @@ body {
   display: flex;
   margin: 50px auto;
 }
+
 .leftSide {
   height: 500px;
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: 'Courier New', Courier;
   color: rgb(0, 0, 0);
-  font-size: 250%;
+  font-size: 350%;
   text-shadow: 2px 2px 7px rgb(73, 71, 71);
   justify-content: center;
   text-align: center;
@@ -59,33 +60,42 @@ a {
  
 
 .nav {
-  background-color: #f1ac88ff;
+  background-color: #943d24;
   padding: 5px;
   margin: 50px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: inset 0 0 10px #eca9f5;
+  box-shadow: inset 0 0 10px #f1ac88ff;
   text-align: center;
+
+  
  
   
 }
 
 .nav a {
   display: inline-block;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 150%;
   padding: 12px;
   width: 15%;
   font-family: "Montserrat", sans-serif;
 }
 
+.nav a:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+  text-decoration: underline; color:white;
+  
+}
+
 img {
   float: left;
   height: 400px;
   width: auto;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 100px;
+  margin-right: 40px;
   border-radius: 30px;
+  
 }
 
 .contact{
@@ -105,13 +115,16 @@ img {
 
 fieldset {
   width: 40%;
-  transition: +0s;
+  
   color: black;
- 
+  width: 500px;
+  height: auto;
+  margin: 50px auto;
 }
 
 input{
-  font-size: larger;
+  font-size: large;
+  justify-items: center;
 }
 
 .hobbies{
@@ -144,9 +157,10 @@ input{
 
 td img{
     display:flex;
-    align-items: center;
+    
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 8%;
 
 }
 
