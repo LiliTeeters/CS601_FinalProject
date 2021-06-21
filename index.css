@@ -1,6 +1,14 @@
-/** {
-  border: 1px solid #f00 !important;
-}*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
 
 body {
   background: linear-gradient( #fc766aff, #783937ff, #f1ac88ff);
@@ -10,6 +18,16 @@ body {
   width: 100%;
   min-height: 100vh;
 
+}
+
+.aboutMe{
+  width: 1100px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+.leftSide {
+  height: 500px;
 }
 
 h1 {
@@ -27,9 +45,8 @@ h2{
 }
 p {
   font-size: 130%;
-  font-weight: bold;
   color: rgb(0, 0, 0);
-  text-align: center;
+  text-align: left;
 }
 
 a {
@@ -45,7 +62,7 @@ a {
   background-color: #f1ac88ff;
   padding: 5px;
   margin: 50px;
-  font-family: "Courier New", Courier;
+  font-family: "Montserrat", sans-serif;
   box-shadow: inset 0 0 10px #eca9f5;
   text-align: center;
  
@@ -58,6 +75,7 @@ a {
   font-size: 150%;
   padding: 12px;
   width: 15%;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
