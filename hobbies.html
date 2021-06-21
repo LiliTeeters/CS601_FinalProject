@@ -5,6 +5,8 @@
     <title>Lili Teeters (RT turned Tech)</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="printing.css" media="print">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body onload="document.body.style.opacity='1'">
@@ -26,35 +28,51 @@
 
 
 
-    <p>Some of my favorite hobbies include:</p>
+    <p>When I have free time I like to go outdoors and explore the world around me. Some of my favorite activities include:</p>
+    <p>(click on the activities to explore more)</p>
     <br>
     <div class="hobbies">
+        <table class="table">
+            <tr>
+                <th id="activities"><a href="https://www.nps.gov/zion/planyourvisit/canyoneering.htm" target="_blank">Canyoneering</a></th>
+                
+                <td><img src="images/rapell.jpg" alt="picture"></td>
+            </tr>
 
-        <table>
-            <thead >
-                <tr >
-                    <th id="activities"><a href="https://www.nps.gov/zion/planyourvisit/canyoneering.htm" target="_blank"> Canyoneering</a></th>
-                    <th id="activities"><a href="https://www.alltrails.com/us/utah/backpacking"  target="_blank">Backpacking</a></th>
-                    <th id="activities"><a href="https://www.alltrails.com/us/utah/backpackinghtm" target="_blank">Hiking</a></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    
-                </tr>
-                <tr>
-                    <td><img src="images/rapell.jpg" alt="picture"></td>
-                    <td><img src="images/backpacking.jpg" alt="picture"></td>
-                    <td><img src=" images/hiking.jpg" alt="picture"></td>  
-                </tr>
-              
-            </tbody>
+            <tr>
+                <th id="activities"><a href="https://www.visitutah.com/things-to-do/backpacking" target="_blank">Backpacking</a></th>
+
+                <td><img src="images/backpacking.jpg" alt="picture"></td>
+            </tr>
+
+            <tr>
+                <th id="activities"><a href="https://www.alltrails.com/us/utah/backpackinghtm" target="_blank">Hiking</a></th>
+                <td><img src="images/hiking.jpg" alt="picture"></td>
+            </tr>
+
+            <tr>
+                <th id="activities" style="text-align: right;";"><a href="https://www.mountainproject.com" target="_blank">Climbing</a></th>
+
+                <td><img src="images/aquarius.jpg" alt="picture"></td>
+            </tr>
         </table>
-     
     </div>
+
+
+    <style>
+        td img {
+            margin-left: 25%;
+            margin-right: 25%;
+
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+
+        }
+    </style>
 
 
 </body>

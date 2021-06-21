@@ -5,14 +5,11 @@
 body {
   background: linear-gradient( #fc766aff, #783937ff, #f1ac88ff);
   opacity: 0;
-  transition: opacity 4s;
-  background-repeat: no-repeat;
-  
+  transition: opacity 3s;
   background-size: cover;
   width: 100%;
   min-height: 100vh;
 
-  
 }
 
 h1 {
@@ -42,11 +39,7 @@ a {
   text-align: center;
 }
 
-a:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
+ 
 
 .nav {
   background-color: #f1ac88ff;
@@ -65,8 +58,6 @@ a:hover {
   font-size: 150%;
   padding: 12px;
   width: 15%;
- 
-
 }
 
 img {
@@ -76,6 +67,7 @@ img {
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 100px;
+  border-radius: 30px;
 }
 
 .contact{
@@ -107,18 +99,38 @@ input{
 .hobbies{
   color: rgb(0, 0, 0);
   font-size: 150%;
-  padding: 12px;
-  width: 15%;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
 }
+
+
 
 #activities:hover{
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  transform: scale(1.5); 
   
+}
+
+#activities{
+  padding-bottom: 10%;
+ 
+  
+}
+
+.table img{
+  border-radius: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+td img{
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
+
 
