@@ -2,7 +2,6 @@
 function validateForm() {
     const firstName = document.getElementById("firstName").value
     const lastName = document.getElementById("lastName").value
-    const facilitatorName = document.getElementById("facilitator").value
 
     if (firstName.length <=2 || firstName == null) {
         alert("Name must be filled out and have two or more characters");
